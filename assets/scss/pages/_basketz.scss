@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 90%;
+    height: 66px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    #myDiv {
+        width: 90%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+
+        .cardBox {
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 14px;
+            border: 1px solid gainsboro;
+            .myDivz {
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: center;
+                align-items: start;
+                flex-direction: column;
+                gap: 14px;
+                padding: 14px;
+            }
+           
+
+        }
+
+    }
+
+}
